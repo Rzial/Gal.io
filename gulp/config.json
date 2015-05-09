@@ -1,0 +1,10 @@
+{
+    "namespace" : "Gal",
+    "scripts" : "./src/**/*.js",
+    "entryPoint" : "./src/index.js",
+    "bundleName" : "gal.io",
+    "devSuffix" : ".dev",
+    "bundleDest" : "./build",
+
+    "defaultTask" : ["jshint","build"]
+}

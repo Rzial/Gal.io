@@ -1,0 +1,50 @@
+{
+    "name": "gal.io",
+    "version": "1.0.0",
+
+    "homepage": "http://gal.io",
+
+    "author": "Pedro Pérez Furio <pedrosolid@gmail.com>",
+    "description": "JavaScript adaptation of the League of Legends API",
+
+    "license": "MIT",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/Rzial/Gal.io.git"
+    },
+
+    "dependencies": {
+        "require-dir": "^0.1.0",
+
+        "gulp": "^3.8.11",
+        "gulp-cached": "^1.0.2",
+        "gulp-jshint": "^1.9.2",
+        "gulp-rename": "^1.2.0",
+        "gulp-uglify": "^1.1.0",
+
+        "vinyl-buffer": "^1.0.0",
+        "vinyl-source-stream": "^1.1.0",
+
+        "browserify": "^9.0.3",
+        "watchify": "^2.4.0",
+
+        "superagent": "1.2.0",
+        "brfs": "^1.4.0",
+        "colors": "^1.0.3",
+        "commander": "^2.6.0",
+        "eventemitter3": "^0.1.6"
+    },
+
+    "devDependencies": {
+        "path": "^0.11.14",
+        "async": "^0.9.0",
+        "object-assign": "^2.0.0",
+        "resource-loader": "^1.3.2"
+    },
+
+    "browserify": {
+        "transform": [
+            "brfs"
+        ]
+    }
+}
